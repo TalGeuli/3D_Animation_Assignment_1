@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/libigl-imgui-download"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/42adc9816bc901558812be8636ea7f89/libigl-imgui-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/7b317204bb6e6ff7f0d9846cdd03c5e0/libigl-imgui-download-complete.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-build.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-configure.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-install.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-patch.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-test.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/96cd825334563ced3a9310ab931e535a/libigl-imgui-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libigl-imgui-download"
+		],
+		"name" : "libigl-imgui-download"
+	}
+}

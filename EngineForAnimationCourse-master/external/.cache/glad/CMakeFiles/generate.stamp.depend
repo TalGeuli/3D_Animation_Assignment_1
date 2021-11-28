@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/3.21.3/CMakeSystem.cmake
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeLists.txt
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/glad-download-prefix/tmp/glad-download-cfgcmd.txt.in
+D:/Program Files/CMake/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystem.cmake.in
+D:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/ExternalProject-gitupdate.cmake.in
+D:/Program Files/CMake/share/cmake-3.21/Modules/ExternalProject.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/FindGit.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/RepositoryInfo.txt.in

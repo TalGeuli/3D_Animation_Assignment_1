@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/glad-download"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/2e9f0b7558e0bbf7bdf729713a5c4b55/glad-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/a04d4febeff58fddc508f62a30f42f1b/glad-download-complete.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-build.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-configure.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-install.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-patch.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-test.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glad/CMakeFiles/b318195e4449a5e46ee06f4060a1aa05/glad-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glad-download"
+		],
+		"name" : "glad-download"
+	}
+}

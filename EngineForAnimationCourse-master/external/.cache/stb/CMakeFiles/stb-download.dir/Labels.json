@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/stb-download"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/63c8d03e259aca927609640db9b1debb/stb-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/a1125c8aaafd38f92e0fef3b24fcd651/stb-download-complete.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-build.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-configure.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-install.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-patch.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-test.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/stb/CMakeFiles/9cada765323e02671786d91cabdc54f2/stb-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-download"
+		],
+		"name" : "stb-download"
+	}
+}

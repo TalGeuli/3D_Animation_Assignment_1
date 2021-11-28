@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/imgui-download"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/bf579028c2e25b70581a3c9d7334d94d/imgui-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/f99559d7358ac2346bccc65c7dc73fe4/imgui-download-complete.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-build.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-configure.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-download.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-install.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-patch.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-test.rule"
+		},
+		{
+			"file" : "D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/imgui/CMakeFiles/a32f385961e88d81d2b4c7307c11dc9f/imgui-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-download"
+		],
+		"name" : "imgui-download"
+	}
+}

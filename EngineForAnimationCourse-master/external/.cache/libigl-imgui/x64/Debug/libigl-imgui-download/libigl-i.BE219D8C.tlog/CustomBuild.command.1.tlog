@@ -1,0 +1,162 @@
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-MKDIR.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/cmake/../external/libigl-imgui
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/build/libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-DOWNLOAD.RULE
+setlocal
+cd C:\Users\talg5\Desktop\EngineForAnimationCourse-master\EngineForAnimationCourse-master\external
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -P C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-UPDATE.RULE
+setlocal
+cd C:\Users\talg5\Desktop\EngineForAnimationCourse-master\EngineForAnimationCourse-master\external\libigl-imgui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -P C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/tmp/libigl-imgui-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-PATCH.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-CONFIGURE.RULE
+setlocal
+cd C:\Users\talg5\Desktop\EngineForAnimationCourse-master\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-BUILD.RULE
+setlocal
+cd C:\Users\talg5\Desktop\EngineForAnimationCourse-master\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-INSTALL.RULE
+setlocal
+cd C:\Users\talg5\Desktop\EngineForAnimationCourse-master\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\6CA1F66FF727A02D6FDBCDA68DBE05B2\LIBIGL-IMGUI-DOWNLOAD-TEST.RULE
+setlocal
+cd C:\Users\talg5\Desktop\EngineForAnimationCourse-master\build\libigl-imgui-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\ECF975C37190091681B890CBD36C2EC1\LIBIGL-IMGUI-DOWNLOAD-COMPLETE.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/Debug/libigl-imgui-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/libigl-imgui-download-prefix/src/libigl-imgui-download-stamp/Debug/libigl-imgui-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKEFILES\3A1D24B178411A51FE5AF9F016061ACB\LIBIGL-IMGUI-DOWNLOAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TALG5\DESKTOP\ENGINEFORANIMATIONCOURSE-MASTER\ENGINEFORANIMATIONCOURSE-MASTER\EXTERNAL\.CACHE\LIBIGL-IMGUI\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui -BC:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui --check-stamp-file C:/Users/talg5/Desktop/EngineForAnimationCourse-master/EngineForAnimationCourse-master/external/.cache/libigl-imgui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

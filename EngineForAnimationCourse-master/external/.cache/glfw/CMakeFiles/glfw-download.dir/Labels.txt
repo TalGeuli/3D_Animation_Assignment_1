@@ -1,0 +1,14 @@
+# Target labels
+ glfw-download
+# Source files and their labels
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/glfw-download
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/5ac3b2df3e892b154a04c7c012fc12aa/glfw-download.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/0e515c4d1e228c948d918d6bd3199c51/glfw-download-complete.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-build.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-configure.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-download.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-install.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-mkdir.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-patch.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-test.rule
+D:/Animation3DProjects/Assignment1/EngineForAnimationCourse-master/external/.cache/glfw/CMakeFiles/dfe2844210104ebdc067a1fa1a87983e/glfw-download-update.rule
