@@ -376,7 +376,11 @@ namespace glfw
           }
           else
           {
-              new_v = 0.5 * (V.row(index_v1) + V.row(index_v2));
+              VectorXd almost = 0.5 * (V.row(index_v1) + V.row(index_v2));
+              new_v(0) = almost(0);
+              new_v(1) = almost(1);
+              new_v(2) = almost(2);
+              new_v(3) = 1;
           }
 
           RowVectorXd temp = new_v.transpose() * Q;
