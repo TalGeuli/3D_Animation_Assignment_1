@@ -96,23 +96,26 @@ namespace glfw
   }
   
   // this function create a matrix Q for each vertex v acording to the normals of the vertex faces.
-  void Viewer::Create_Q_For_V(Eigen::MatrixXd& V, vector <set<int>>& VF, vector<Eigen::Matrix4d> &Q_vertexes) {
+  void Viewer::Create_Q_For_V(Eigen::MatrixXi&F, Eigen::MatrixXd& V, vector <set<int>>& VF, vector<Eigen::Matrix4d> &Q_vertexes) {
       for (int v = 0; v < V.rows(); v++) {
           Q_vertexes[v]=Eigen::Matrix4d::Zero();
       }
       for (int v = 0; v < V.rows(); v++) {
           for (const int& number : VF[v])
           {
-              VectorXd vec = V.row(v);
-              VectorXd normal = data().F_normals.row(number).normalized();
-              double d = normal(0) * (-vec(0)) + normal(1) * (-vec(1)) + normal(2) * (-vec(2));
-              VectorXd p(4);
-              p(0) = normal(0);
-              p(1) = normal(1);
-              p(2) = normal(2);
-              p(3) = d;
-              Matrix4d temp = p * p.transpose();
-              Q_vertexes[v] = Q_vertexes[v] + temp;
+              if (F.row(number)(0) == F.row(number)(1) == F.row(number)(2)) {}
+              else {
+                  VectorXd vec = V.row(v);
+                  VectorXd normal = data().F_normals.row(number).normalized();
+                  double d = normal(0) * (-vec(0)) + normal(1) * (-vec(1)) + normal(2) * (-vec(2));
+                  VectorXd p(4);
+                  p(0) = normal(0);
+                  p(1) = normal(1);
+                  p(2) = normal(2);
+                  p(3) = d;
+                  Matrix4d temp = p * p.transpose();
+                  Q_vertexes[v] = Q_vertexes[v] + temp;
+              }
           }
       }
      
@@ -135,7 +138,7 @@ namespace glfw
         MatrixXd Q1 = Q_vertexes[index_v1];
         MatrixXd Q2 = Q_vertexes[index_v2];
         MatrixXd Q = Q1 + Q2;
-        VectorXd new_v;
+        VectorXd new_v(4);
         if (Q.determinant() != 0)
         {
             Q.row(Q.rows() - 1)(0) = 0;
@@ -152,9 +155,13 @@ namespace glfw
         }
         else 
         {
-            new_v = 0.5 * (V.row(index_v1) + V.row(index_v2));
+            VectorXd almost = 0.5 * (V.row(index_v1) + V.row(index_v2));
+            new_v(0) = almost(0);
+            new_v(1) = almost(1);
+            new_v(2) = almost(2);
+            new_v(3) = 1;
+
         }
-           
         RowVectorXd temp = new_v.transpose() * Q;
         cost = (temp * new_v)(0, 0);
         p(0) = new_v(0);
@@ -233,7 +240,7 @@ namespace glfw
       {
           bool something_collapsed = false;
           // collapse edge
-          const int max_iter = std::ceil(0.01 * Q.size())/2; //*****check if the equation is true
+          const int max_iter = std::ceil(0.01 * Q.size())/2; 
           for (int j = 0; j < max_iter; j++)
           {
               
@@ -283,7 +290,7 @@ namespace glfw
 
       edge_flaps(F, E, EMAP, EF, EI);
       Vertex_to_faces(VF, F, V);
-      Create_Q_For_V(V, VF, Q_vertexes);
+      Create_Q_For_V(F,V, VF, Q_vertexes);
       C.resize(E.rows(), V.cols());
       VectorXd costs(E.rows());
       // https://stackoverflow.com/questions/2852140/priority-queue-clear-method
@@ -302,7 +309,11 @@ namespace glfw
               }
           for (int e = 0; e < E.rows(); e++)
           {
-              Q.emplace(costs(e), e, 0);
+              if (!isnan(costs(e)))
+                  Q.emplace(costs(e), e, 0);
+              else
+                  Q.emplace(INFINITY, e, 0);
+              
           }
       }
       num_collapsed = 0;
@@ -387,7 +398,9 @@ namespace glfw
       {
           bool something_collapsed = false;
           // collapse edge
-          const int max_iter = std::ceil(0.01 * Q.size()) / 2; //*****check if the equation is true
+          int max_iter = std::ceil(0.01 * Q.size()) /2; 
+          if (max_iter == 0)
+              max_iter = 1;              
           for (int j = 0; j < max_iter; j++)
           {
 

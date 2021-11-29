@@ -780,6 +780,7 @@ IGL_INLINE bool igl::collapse_edge(
         while (true)
         {
             // Check if Q is empty
+            
             if (Q.empty())
             {
                 // no edges to collapse
@@ -787,6 +788,7 @@ IGL_INLINE bool igl::collapse_edge(
                 return false;
             }
             // pop from Q
+            
             p = Q.top();
             // 
             if (std::get<0>(p) == std::numeric_limits<double>::infinity())
@@ -795,6 +797,7 @@ IGL_INLINE bool igl::collapse_edge(
                 // min cost edge is infinite cost
                 return false;
             }
+            
             Q.pop();
             e = std::get<1>(p);
             // Check if matches timestamp | 
@@ -812,18 +815,20 @@ IGL_INLINE bool igl::collapse_edge(
         // If we just need original face neighbors of edge, could we gather that more
         // directly than gathering face neighbors of each vertex?
         std::vector<int> /*Nse,*/Nsf, Nsv;
-
+        
         circulation(e, true, F, EMAP, EF, EI,/*Nse,*/Nsv, Nsf);
         std::vector<int> /*Nde,*/Ndf, Ndv;
+        
         circulation(e, false, F, EMAP, EF, EI,/*Nde,*/Ndv, Ndf);
 
 
         bool collapsed = true;
+        
         collapsed = collapse_edge(
             e, C.row(e),
             Nsv, Nsf, Ndv, Ndf,
             V, F, E, EMAP, EF, EI, e1, e2, f1, f2);
-
+       
 
 
         if (collapsed)
@@ -869,7 +874,7 @@ IGL_INLINE bool igl::collapse_edge(
             {
                 // compute cost and potential placement
                 double cost;
-                RowVectorXd place;
+                RowVectorXd place(1, 3);
                 cost_and_placement(ei, V, E, VF, Q_vertexes, C, Q, cost, place);
                 // Increment timestamp
                 EQ(ei)++;
@@ -877,6 +882,7 @@ IGL_INLINE bool igl::collapse_edge(
                 Q.emplace(cost, ei, EQ(ei)); 
                 C.row(ei) = place;
             }
+           
         }
         else
         {

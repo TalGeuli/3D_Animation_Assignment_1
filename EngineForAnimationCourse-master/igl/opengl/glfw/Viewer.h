@@ -55,7 +55,7 @@ namespace glfw
    // enum class MouseMode { None, Rotation, Zoom, Pan, Translation} mouse_mode;
     virtual void Init(const std::string config);
     void Vertex_to_faces(vector <set <int>>& VF, Eigen::MatrixXi& F, Eigen::MatrixXd& V);
-    void Create_Q_For_V(Eigen::MatrixXd& V, vector <set<int>>& VF, vector<Eigen::Matrix4d> &Q_vertexes);
+    void Create_Q_For_V(Eigen::MatrixXi& F, Eigen::MatrixXd& V, vector <set<int>>& VF, vector<Eigen::Matrix4d> &Q_vertexes);
     void Reset();
     bool Pre_Draw();
     void Reset_2();
